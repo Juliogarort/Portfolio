@@ -117,6 +117,7 @@
   --bs-form-valid-border-color: #198754;
   --bs-form-invalid-color: #dc3545;
   --bs-form-invalid-border-color: #dc3545;
+  
 }
 
 .color-morao{
@@ -126,6 +127,12 @@ color: #9a6af3;
 .fondo{
     background-color: #cccccc;
 }
+
+.btn-secondary{
+background-color:#9a6af3;
+
+}
+
 
 .Btn_inst {
   width: 45px;
@@ -214,7 +221,7 @@ color: #9a6af3;
   content: "";
   width: 100%;
   height: 100%;
-  background: #0077b5;
+  background: #8f8e8e;
   z-index: -1;
   border-radius: 9px;
   pointer-events: none;
@@ -286,3 +293,50 @@ color: #9a6af3;
   background-color: rgba(156, 156, 156, 0.466);
   backdrop-filter: blur(4px);
 }
+
+.contactButton {
+  background: #3e3b409a;
+  color: white;
+  font-family: inherit;
+  padding: 0.45em;
+  padding-left: 1em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3em;
+}
+
+.iconButton {
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #000000;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.contactButton:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em #9a6af3;
+}
+
+
+
+.contactButton:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em #9a6af3;
+}
+
