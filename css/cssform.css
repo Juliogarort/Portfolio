@@ -2,6 +2,10 @@
     color: #9a6af3;
     }
 
+    .fondo{
+        background-color: #cccccc;
+    }
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -24,11 +28,12 @@ label {
     }
 
 .btn-send:hover{
-    background-color: #000000;
-
+    background-color: #373737;
 }
+
+
 .help-block.with-errors {
-    color: #ff5050;
+    color: #d350ff;
     margin-top: 5px;
 
 }

@@ -185,7 +185,7 @@ background-color:#9a6af3;
 }
 
 .Btn_inst:hover .svgContainer {
-  background-color: rgba(156, 156, 156, 0.466);
+  background-color: rgba(224, 63, 63, 0.466);
 }
 
 .LinkedinBtn {
@@ -221,7 +221,7 @@ background-color:#9a6af3;
   content: "";
   width: 100%;
   height: 100%;
-  background: #8f8e8e;
+  background: #73bce3;
   z-index: -1;
   border-radius: 9px;
   pointer-events: none;
@@ -238,7 +238,7 @@ background-color:#9a6af3;
 }
 
 .LinkedinBtn:hover .svgContainer {
-  background-color: rgba(156, 156, 156, 0.466);
+  background-color: rgba(41, 37, 37, 0.466);
 }
 
 
