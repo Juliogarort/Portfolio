@@ -194,7 +194,7 @@
   
   .contactButton:hover {
     transform: translate(-0.05em, -0.05em);
-    box-shadow: 0.15em 0.15em #9a6af3;
+    box-shadow: 0.15em 0.15em #000000;
   }
   
   
@@ -203,5 +203,5 @@
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #9a6af3;
   }
-  
+
   

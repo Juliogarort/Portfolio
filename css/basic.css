@@ -128,12 +128,20 @@ color: #9a6af3;
   background-color: #9a6af3;
   }
 
+  .fondo-morao2{
+    background-color: #b38ef7;
+    }
+
 .fondo{
   background-color: #cccccc;
 }
 
 .fondo-{
     background: linear-gradient(to bottom, #cccccc, #666666); /* Degradado de gris claro a gris oscuro */
+}
+
+.fondo_carousel{
+  background-color: #84848434;
 }
 
 .fondo_img1{
@@ -152,4 +160,10 @@ background-color:#9a6af3;
 
 .borde_rdn{
   border-radius: 9px;
+}
+
+.zoom-container:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease; /* Añade una transición suave de 0.3 segundos */
+
 }
