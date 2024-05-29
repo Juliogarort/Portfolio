@@ -165,5 +165,9 @@ background-color:#9a6af3;
 .zoom-container:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease; /* Añade una transición suave de 0.3 segundos */
+}
 
+.texto{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
 }

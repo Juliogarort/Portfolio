@@ -13,6 +13,8 @@
   <script src="formulario.js"></script>
   <link rel="stylesheet" href="Css/basic.css">
   <link rel="stylesheet" href="Css/rrss.css">
+  <script src="js/descarga.js"></script>
+
 </head>
 
 <body class="fondo-">
@@ -37,12 +39,17 @@
   <!-- ___________________________________________________________________________________________________________________________________________________ -->
 
   <div class="container text-center pt-3 m-auto p-3 fondo_img1 borde_rdn zoom-container">
-    <div>
+    <div class="pt-3">
       <img class="img img-fluid w-25 rounded-4" src="imagenes/musica.png" alt="artistas favoritos">
     </div>
     <div>
       <h2 class="pt-3">Artistas Favoritos</h2>
-      <p class="text-left" id="Información"> asdfasdf</p>
+      <p class="texto m-3" id="Información">
+        Estos son algunos de mis artistas favoritos. En el centro encontramos a Post
+        Malone, que es mi favorito
+        de todos y también encontramos a otros como Imagine Dragons, Bad Bunny, Kygo o Shaboozey.
+        Estos son algunos de los que se reprofucen en bucle en mi Spotify
+      </p>
     </div>
   </div>
 
@@ -51,8 +58,16 @@
   <div class="row d-flex container my-5 text-center m-auto p-3 fondo_img2 borde_rdn zoom-container">
     <div class="col-md-7 align-content-center">
 
-      <h2 class="">Hobbies </h2>
-      <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+      <h2>Hobbies </h2>
+      <p class="texto">
+        Admiro mucho a Federer y Nadal, siempre me inspiran con su dedicación y talento, por eso es que decidí apuntarme
+        a clases de tenis.
+        Cuando lo dejé, decidí probar con el pádel, es un deporte muy entretenido y divertido de jugar con amigos, ya
+        que no hace falta mucha técnica para pasar un buen rato
+        También soy un gran fan de la Fórmula 1, no hay nada como la emoción de ver una carrera y seguir toda la
+        estrategia.
+        Y como no también me gusta mucho jugar videojuegos, ya sean de consola u ordenador. Actualmente, mis favoritos
+        son Counter Strike o Red Dead Redemption 2 entre otros.
       </p>
 
     </div>
@@ -75,8 +90,13 @@
     </div>
     <div class="col-md-7 align-content-center">
 
-      <h2 class="">Aficiones</h2>
-      <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+      <h2>Viajes</h2>
+      <p class="texto">
+        Una de las cosas que más me gusta hacer es viajar. Me encanta descubrir nuevos sitios y sumergirme en distintas
+        culturas. A través de los viajes puedo vivir
+        experiencias inolvidables, desde recorrer lugares históricos hasta disfrutar de paisajes impresionantes. Por lo
+        general, me inclino por destinos en el campo,
+        donde puedo disfrutar de sorprendentes vistas en las montañas.
       </p>
 
     </div>
@@ -138,9 +158,16 @@
         </button>
       </a>
 
-      <p class="m-auto fw-bolder">julio.garort16@gmail.com</p>
-      <p class="m-auto  fw-bold ">© 2024 Julio García Ortiz</p>
+      <p class="m-auto fw-bolder">© 2024 Julio García Ortiz</p>
+      <p class="m-auto  fw-bold ">
+        <a href="documentos/Currículum Julio García.pdf" download="Currículum-JulioGarcía.pdf"
+          onclick="confirmDescarga(event)">
+          <button type="button" class="btn btn-secondary position-relative contact-button">
+            Descargue mi CV
+          </button>
+        </a>
 
+      </p>
 
     </div>
 
