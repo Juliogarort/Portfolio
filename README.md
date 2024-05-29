@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="Portfolio-JGO" alt="Imagen readme sobre sobre mi portfolio">
+  <img src="Portfolio-JGO.png" alt="Imagen readme sobre sobre mi portfolio">
 
 </p>
 
