@@ -204,4 +204,34 @@
     box-shadow: 0.05em 0.05em #9a6af3;
   }
 
+/* Estilos generales para el footer */
+#footer .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .m-4 {
+  margin: 1rem;
+}
+
+/* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+  #footer .container {
+    flex-direction: row; /* Cambiar a columna en pantallas pequeñas */
+    align-items: center; /* Centrar los elementos horizontalmente */
+  }
+
+  #footer .m-4 {
+    margin: 0.5rem 0; /* Ajustar margen para reducir espacio entre botones */
+  }
+
+  #footer p {
+    text-align: center; /* Centrar los textos */
+    margin-top: 1rem; /* Añadir margen superior */
+  }
+}
+
   
